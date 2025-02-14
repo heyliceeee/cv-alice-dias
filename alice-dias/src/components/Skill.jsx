@@ -10,83 +10,83 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-        imgSrc: '/public/java.svg',
+        imgSrc: 'java.svg',
         label: 'Java',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/csharp.svg',
+        imgSrc: '/csharp.svg',
         label: 'C#',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/scrum.svg',
+        imgSrc: '/scrum.svg',
         label: 'Scrum',
         desc: 'Agile Metodology'
     },
     {
-        imgSrc: '/public/sql.svg',
+        imgSrc: '/sql.svg',
         label: 'SQL',
         desc: 'Database'
     },
     {
-        imgSrc: '/public/mongodb.svg',
+        imgSrc: '/mongodb.svg',
         label: 'MongoDB',
         desc: 'Database'
     },
     {
-        imgSrc: '/public/python.svg',
+        imgSrc: '/python.svg',
         label: 'Python',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/react.svg',
+        imgSrc: '/react.svg',
         label: 'React',
         desc: 'Framework'
     },
     {
-        imgSrc: '/public/flutter.svg',
+        imgSrc: '/flutter.svg',
         label: 'Flutter',
         desc: 'Framework'
     },
     {
-        imgSrc: '/public/angular.svg',
+        imgSrc: '/angular.svg',
         label: 'Angular',
         desc: 'Framework'
     },
     {
-        imgSrc: '/public/ionic.svg',
+        imgSrc: '/ionic.svg',
         label: 'Ionic',
         desc: 'Framework'
     },
     {
-        imgSrc: '/public/swift.svg',
+        imgSrc: '/swift.svg',
         label: 'Swift',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/figma.svg',
+        imgSrc: '/figma.svg',
         label: 'Figma',
         desc: 'Design tool'
     },
     {
-        imgSrc: '/public/javascript.svg',
+        imgSrc: '/javascript.svg',
         label: 'JavaScript',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/ts.svg',
+        imgSrc: '/ts.svg',
         label: 'TypeScript',
         desc: 'Language'
     },
     {
-        imgSrc: '/public/nodejs.svg',
+        imgSrc: '/nodejs.svg',
         label: 'NodeJS',
         desc: 'Web Server'
     },
 
     {
-        imgSrc: '/public/tailwindcss.svg',
+        imgSrc: '/tailwindcss.svg',
         label: 'TailwindCSS',
         desc: 'User Interface'
     }

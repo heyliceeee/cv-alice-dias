@@ -41,7 +41,7 @@ const About = () => {
                             ))
                         }
 
-                        <img className="ml-auto md:w-[40px] md:h-[40px]" width={30} height={30} src="/public/favicon.ico" alt="Logo" />
+                        <img className="ml-auto md:w-[40px] md:h-[40px]" width={30} height={30} src="/favicon.ico" alt="Logo" />
                     </div>
                 </div>
             </div>
