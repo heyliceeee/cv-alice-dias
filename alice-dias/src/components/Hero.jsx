@@ -15,7 +15,7 @@ const Hero = () => {
                 <div>
                     <div className="flex items-center gap-3">
                         <figure className="img-box w-9 h-9 rounded-lg">
-                            <img className='img-cover' width={40} height={40} src="/images/avatar-1.jpg" alt="Alice Dias portrait" />
+                            <img className='img-cover' width={40} height={40} src="/public/avatar-1.jpg" alt="Alice Dias portrait" />
                         </figure>
 
                         <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
@@ -38,7 +38,7 @@ const Hero = () => {
 
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[4184px] ml-auto bg-gradient-to-t from-purple-300 via-25% via-purple-300/40 rounded-[60px] overflow-hidden">
-                        <img className="w-full" width={4184} height={5188} src="/images/alice-banner.png" alt="Alice Dias" />
+                        <img className="w-full" width={4184} height={5188} src="/public/alice-banner.png" alt="Alice Dias" />
                     </figure>
                 </div>
             </div>
