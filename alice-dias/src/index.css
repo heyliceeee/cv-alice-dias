@@ -52,12 +52,16 @@ body {
 *   TYPOGRAPHY
 \*  _____________________________________________   */
 
-.headline-1 {
+.headline-1, .headline-2 {
   @apply max-w-max headline-1-gradient
 }
 
 .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
+.headline-2 {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
 }
 
 
