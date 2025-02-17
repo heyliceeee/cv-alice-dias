@@ -5,6 +5,7 @@
 
 import React, { useEffect, useState } from 'react'
 import ProjectCard from './ProjectCard';
+import { data } from 'autoprefixer';
 
 
 const API_URL = import.meta.env.VITE_API_URL;
@@ -57,7 +58,7 @@ const Work = () => {
     useEffect(() => {
         fetch(`${API_URL}/project`)
             .then((res) => res.json())
-            .then((data) => setProjects(data))
+            .then((data) => setProjects(data), console.log("PROJETOS: " + data))
             .catch((err) => console.error("Error searching for projects:", err));
     }, []);
 
@@ -65,10 +66,10 @@ const Work = () => {
     return (
         <section id='work' className="section">
             <div className="container">
-                <h2 className="headline-2 mb-8">My portfolio highlights</h2>
+                <h2 className="headline-2 mb-8 reveal-up">My portfolio highlights</h2>
                 <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                     {projects.map(({ id, photo, name, description, url, tecnologies }) => (
-                        <ProjectCard key={id} photo={photo} name={name} description={description} url={url} tecnologies={tecnologies.map(t => t.name)} />
+                        <ProjectCard key={id} photo={photo} name={name} description={description} url={url} tecnologies={tecnologies.map(t => t.name)} classes="reveal-up" />
                     ))}
                 </div>
             </div>
