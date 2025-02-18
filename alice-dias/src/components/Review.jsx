@@ -31,7 +31,7 @@ const reviews = [
 
 const Review = () => {
 
-    useGSAP(() => {
+    /* useGSAP(() => {
         gsap.to('.scrub-slide', {
             scrollTrigger: {
                 trigger: '.scrub-slide',
@@ -39,7 +39,7 @@ const Review = () => {
             },
             x: '-1000'
         })
-    });
+    }); */
 
 
     return (
