@@ -15,6 +15,8 @@ import { ReactLenis } from 'lenis/react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 
 gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies 
@@ -47,6 +49,8 @@ const App = () => {
         <Hero />
         <About />
         <Skill />
+        <Education />
+        <Experience />
         <Work />
         <Review />
         <Contact />

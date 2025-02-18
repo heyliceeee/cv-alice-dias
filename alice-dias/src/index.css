@@ -174,3 +174,71 @@ body {
 .text-field::placeholder {
   @apply text-zinc-400
 }
+
+
+
+
+
+
+
+
+
+
+.education-timeline {
+  @apply flex flex-col gap-8 border-l-2 border-zinc-700 pl-6;
+}
+
+.education-item {
+  @apply relative;
+}
+
+.education-content {
+  @apply bg-zinc-800 p-4 rounded-lg shadow-md transition-transform;
+}
+
+.education-title {
+  @apply text-xl font-semibold text-zinc-50;
+}
+
+.education-institution {
+  @apply text-sm text-zinc-400;
+}
+
+.education-duration {
+  @apply text-sm text-zinc-500;
+}
+
+
+
+
+.experience-section {
+  @apply section container;
+}
+
+.experience-list {
+  @apply flex flex-col gap-6;
+}
+
+.experience-card {
+  @apply flex gap-6 bg-zinc-800 p-4 rounded-xl shadow-lg transition-transform;
+}
+
+.experience-icon {
+  @apply w-12 h-12 flex items-center justify-center bg-purple-400 rounded-full;
+}
+
+.experience-details {
+  @apply flex flex-col;
+}
+
+.experience-title {
+  @apply text-xl font-semibold text-zinc-50;
+}
+
+.experience-company {
+  @apply text-sm text-zinc-400;
+}
+
+.experience-duration {
+  @apply text-sm text-zinc-500;
+}
