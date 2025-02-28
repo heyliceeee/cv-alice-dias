@@ -185,7 +185,7 @@ body {
 
 
 .education-timeline {
-  @apply flex flex-col gap-8 border-l-2 border-zinc-700 pl-6;
+  @apply flex flex-col gap-8 border-l-2 border-purple-700 pl-6;
 }
 
 .education-item {
