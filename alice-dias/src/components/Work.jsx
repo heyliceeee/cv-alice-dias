@@ -13,6 +13,13 @@ const API_URL = import.meta.env.VITE_API_URL;
 
 const projects = [
     {
+        id: 15,
+        photo: 'candyCrush.png',
+        name: 'Candy Crush YOLO',
+        tecnologies: ['Automation','YOLO', 'Python', 'Machine Learning'],
+        url: 'https://github.com/heyliceeee/2025-ia-trabalhopratico'
+    },
+    {
         id: 14,
         photo: 'weatherApp.png',
         name: 'WeatherTrack',
