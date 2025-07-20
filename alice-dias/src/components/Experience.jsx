@@ -13,21 +13,21 @@ const experiences = [
         title: "Internship",
         company: "Escola Superior de Tecnologia e Gestão - Felgueiras",
         duration: "Feb 2025 - Present",
-        description: "Internship project in the area of ​​Machine Learning applied to energy consumption forecasting."
+        description: "Goals: Develop and compare ML models to forecast energy consumption and identify key influencing factors. Main tasks: Time series preprocessing, model testing (Linear Regression, Random Forest, XGBoost, Neural Networks), performance comparison, dashboard implementation, and literature review on energy forecasting methods."
     },
     {
         id: 2,
         title: "Design Team Member",
         company: "ESTG Connect",
         duration: "Out 2024 - May 2025",
-        description: ""
+        description: "Collaborated on the visual identity and graphic communication of the ESTG Connect tech event. Designed logos, icons, banners, posters, brochures, speaker templates, and directional signs. Created sponsor promo videos and event-day content. Worked with the design/communication team to ensure a cohesive and professional image across digital and physical formats."
     },
     {
         id: 3,
         title: "IT Department Member",
         company: "Núcleo de Estudantes de Informática - NEI ESTG",
         duration: "Out 2024 - Present",
-        description: ""
+        description: "Supported the live stream setup for an online League of Legends tournament, including the creation of custom overlays and scene transitions. Ensured a smooth broadcast experience across platforms, combining technical execution with visual design."
     },
     {
         id: 4,

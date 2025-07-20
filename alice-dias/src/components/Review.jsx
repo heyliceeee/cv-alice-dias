@@ -17,7 +17,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React
 
 const reviews = [
     {
-        content: 'O aluno Alice Dias, mostrou no decorrer do estágio uma enorme capacidade de trabalho tendo conseguido um resultado de excelência. Revelou conhecimentos práticos de programação, com muita facilidade percebeu a organização da empresa tendo colaborado na elaboração de uma coleção digital. O seu relacionamento com os demais professionais da Gierlings Velpor, notabilizou-se pela relação interpessoal que rapidamente conseguiu, revelando forte sentido de humildade, cooperação e interajuda sempre que lhe foi solicitado. Em conclusão direi que foi um estágio bastante produto em que as ambas as partes sairam a ganhar. Parabéns Alice!',
+        content: '"A aluna Alice Dias, mostrou no decorrer do estágio uma enorme capacidade de trabalho tendo conseguido um resultado de excelência. Revelou conhecimentos práticos de programação, com muita facilidade percebeu a organização da empresa tendo colaborado na elaboração de uma coleção digital. O seu relacionamento com os demais professionais da Gierlings Velpor, notabilizou-se pela relação interpessoal que rapidamente conseguiu, revelando forte sentido de humildade, cooperação e interajuda sempre que lhe foi solicitado. Em conclusão direi que foi um estágio bastante produto em que as ambas as partes sairam a ganhar. Parabéns Alice!"',
         name: 'Francisco Freitas',
         company: 'Lantal Textiles AG (Gierlings Velpor)'
     },
