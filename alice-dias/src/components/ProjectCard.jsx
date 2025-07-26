@@ -32,7 +32,9 @@ const ProjectCard = ({ photo, name, description, url, tecnologies, classes }) =>
                 </div>
             </div>
 
-            <a className="absolute inset-0" href={url} target='_blank'></a>
+            {url !== '' && (
+                <a className="absolute inset-0" href={url} target="_blank" rel="noopener noreferrer"></a>
+            )}
         </div>
     )
 }
