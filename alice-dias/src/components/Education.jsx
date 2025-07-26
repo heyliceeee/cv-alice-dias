@@ -11,14 +11,14 @@ const educations = [
     {
         id: 1,
         degree: "Software Engineering Degree Student",
-        institution: "Escola Superior de Tecnologia e Gestão - Felgueiras",
+        institution: "ESTG - Polytechnic Institute of Porto",
         duration: "2022 - Now",
         subjects: ["Agile Methodologies", "ADT", "AI", "Multithreading", "Java", "Python", "C", "C#", "Flutter", "ASP .NET Core", "Spring Boot"],
     },
     {
         id: 2,
         degree: "CTESP Development Web and Mobile Devices",
-        institution: "Escola Superior de Tecnologia e Gestão - Felgueiras",
+        institution: "ESTG - Polytechnic Institute of Porto",
         duration: "2020 - 2022",
         subjects: ["Node.js", "UML", "Ionic", "Bootstrap", "JavaScript", "iOS Development", "Android Development", "React.js", "Swift", "MongoDB", "AngularJS", "PHP", "SQL"],
     },
