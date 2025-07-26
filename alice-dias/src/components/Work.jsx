@@ -66,7 +66,7 @@ const projects = [
         photo: 'nei.png',
         name: 'NEI@ESTG website',
         tecnologies: ['React', 'TypeScript', 'Material-UI', 'Docker'],
-        url: 'https://nei-estg.org/'
+        url: ''
     },
     {
         id: 9,
