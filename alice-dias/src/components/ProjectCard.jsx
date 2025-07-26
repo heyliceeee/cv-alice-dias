@@ -27,9 +27,11 @@ const ProjectCard = ({ photo, name, description, url, tecnologies, classes }) =>
                     </div>
                 </div>
 
-                <div className="w-11 h-11 rounded-lg grid place-items-center bg-purple-400 text-zinc-950 shrink-0">
-                    <span className="material-symbols-rounded" arial-hidden='true'>arrow_outward</span>
-                </div>
+                {url !== '' && (
+                    <div className="w-11 h-11 rounded-lg grid place-items-center bg-purple-400 text-zinc-950 shrink-0">
+                        <span className="material-symbols-rounded" arial-hidden='true'>arrow_outward</span>
+                    </div>
+                )}
             </div>
 
             {url !== '' && (
