@@ -13,110 +13,124 @@ const API_URL = import.meta.env.VITE_API_URL;
 
 const projects = [
     {
-        id: 15,
+        id: 17,
+        photo: 'energyConsumption.jpg',
+        name: 'Energy Consumption Forecasting with Machine Learning Models',
+        tecnologies: ['Data Science', 'Pandas', 'Scientific Research', 'Machine Learning', 'CRISP-DM', 'Automation', 'Big data', 'Predictive Models', 'Time Series', 'Python', 'Artificial Intelligence'],
+        url: 'https://github.com/heyliceeee/previsao-do-consumo-energetico-com-ml'
+    },
+    {
+        id: 16,
         photo: 'candyCrush.png',
         name: 'Candy Crush YOLO',
-        tecnologies: ['Automation','YOLO', 'Python', 'Machine Learning'],
+        tecnologies: ['Data Science', 'Pandas', 'Machine Learning', 'Automation', 'Python', 'Artificial Intelligence'],
         url: 'https://github.com/heyliceeee/2025-ia-trabalhopratico'
     },
     {
+        id: 15,
+        photo: 'si-levexpress.png',
+        name: 'LevExpress - Delivery Orchestration (Java + BPMN)',
+        tecnologies: ['API REST', 'Java', 'Spring Boot', 'Automation', 'Camunda BPM'],
+        url: 'https://github.com/heyliceeee/SI-levExpress'
+    },
+     {
         id: 14,
-        photo: 'weatherApp.png',
-        name: 'WeatherTrack',
-        tecnologies: ['Vue.js', 'Bootstrap', 'API', 'Chart.js', 'Javascript'],
-        url: 'https://github.com/heyliceeee/plataforma-de-gestao'
+        photo: 'levexpress.png',
+        name: 'LevExpress - Delivery System (Mobile App + Backoffice + Backend)',
+        tecnologies: ['Flutter', 'Docker', 'PostgreSQL', 'ASP.NET', 'Agile Methodologies', 'UML', 'API REST'],
+        url: ''
     },
     {
         id: 13,
-        photo: 'restaurant-dashboard.jpg',
-        name: 'Restaurant - Dashboard',
-        tecnologies: ['Vue.js', 'JSON Server', 'Ant Design', 'ECharts', 'Javascript'],
-        url: 'https://github.com/heyliceeee/vuejs-course'
+        photo: 'tocruz.png',
+        name: 'Mission Simulator - To Cruz',
+        tecnologies: ['Java', 'JavaFX', 'Automation', 'ADT'],
+        url: 'https://github.com/heyliceeee/simulador-missoes-to-cruz'
     },
     {
         id: 12,
         photo: 'sd.png',
         name: 'Distributed Communication System',
-        tecnologies: ['Java', 'TCP', 'RSA', 'Multithreading'],
+        tecnologies: ['Encryption', 'Java', 'Multithreading', 'TCP Sockets'],
         url: 'https://github.com/heyliceeee/SD-trabalhoPratico'
     },
     {
         id: 11,
-        photo: 'tocruz.png',
-        name: 'Mission Simulator - To Cruz',
-        tecnologies: ['ADT', 'Java', 'JavaFX'],
-        url: 'https://github.com/heyliceeee/simulador-missoes-to-cruz'
+        photo: 'robocode.jpg',
+        name: 'Robocode – Robot Combat with AI Strategies',
+        tecnologies: ['Data Science', 'Java', 'Automation', 'Artificial Intelligence'],
+        url: 'https://github.com/heyliceeee/robocodeIA'
     },
-    {
+     {
         id: 10,
-        photo: 'si-levexpress.png',
-        name: 'LevExpress - Delivery Management',
-        tecnologies: ['Camunda', 'Spring Boot', 'Java', 'Task Automation'],
-        url: 'https://github.com/heyliceeee/SI-levExpress'
+        photo: 'nei.png',
+        name: 'NEI@ESTG website',
+        tecnologies: ['React', 'TypeScript', 'Material-UI', 'Docker'],
+        url: 'https://nei-estg.org/'
     },
     {
         id: 9,
-        photo: 'crossfit-cards.png',
-        name: 'Crossfit Cards',
-        tecnologies: ['Angular', 'TypeScript', 'Bootstrap', 'CSS'],
-        url: 'https://github.com/heyliceeee/crossfit-cards'
+        photo: 'captureTheFlag.jpg',
+        name: 'Capture the Flag Game – Strategic Simulator with Data Structures',
+        tecnologies: ['Java', 'JavaFX', 'Automation', 'ADT'],
+        url: 'https://github.com/heyliceeee/capture-the-flag'
     },
     {
         id: 8,
+        photo: 'trazCa.png',
+        name: 'Traz Cá - Food Delivery App',
+        tecnologies: ['JavaScript', 'React Native', 'Ant Design'],
+        url: 'https://github.com/heyliceeee/trazcaApp'
+    },
+    {
+        id: 7,
+        photo: 'generatePassword.png',
+        name: 'Password Generator - Password Generation and Management App',
+        tecnologies: ['JavaScript', 'React Native', 'CSS'],
+        url: 'https://github.com/heyliceeee/passwordGenerator'
+    },
+    {
+        id: 6,
+        photo: 'smsSystem.png',
+        name: 'SMS System',
+        tecnologies: ['C#', 'ASP.NET', 'SQL', 'Xamarin'],
+        url: ''
+    },
+    {
+        id: 5,
+        photo: 'spaceFlightNews.png',
+        name: 'Space Flight News – Space News App for iOS',
+        tecnologies: ['Swift', 'API REST', 'Firebase'],
+        url: 'https://github.com/heyliceeee/spaceFlightNews'
+    },
+    {
+        id: 4,
+        photo: 'crossfit-cards.png',
+        name: 'Crossfit Cards',
+        tecnologies: ['Angular', 'JavaScript', 'Bootstrap', 'API REST'],
+        url: 'https://github.com/heyliceeee/crossfit-cards'
+    },
+    {
+        id: 3,
         photo: 'sweetRicers.png',
         name: 'Sweet Ricers',
         tecnologies: ['React', 'JavaScript', 'Ant Design', 'CSS'],
         url: 'https://sweet-ricers.vercel.app/'
     },
     {
-        id: 7,
-        photo: 'robocode.jpg',
-        name: 'Robocode',
-        tecnologies: ['Java', 'Machine Learning', 'Robocode', 'H20'],
-        url: 'https://github.com/heyliceeee/robocodeIA'
-    },
-    {
-        id: 6,
-        photo: 'nei.png',
-        name: 'NEI Website',
-        tecnologies: ['React', 'TypeScript', 'Material-UI'],
-        url: 'https://nei-estg.org/'
-    },
-    {
-        id: 5,
-        photo: 'trazCa.png',
-        name: 'Traz Cá - Food Delivery App',
-        tecnologies: ['JavaScript', 'React Native', 'CSS'],
-        url: 'https://github.com/heyliceeee/trazcaApp'
-    },
-    {
-        id: 4,
-        photo: 'captureTheFlag.jpg',
-        name: 'Capture the Flag Game',
-        tecnologies: ['Java', 'JavaFX'],
-        url: 'https://github.com/heyliceeee/capture-the-flag'
-    },
-    {
-        id: 3,
-        photo: 'generatePassword.png',
-        name: 'Password Generator',
-        tecnologies: ['JavaScript', 'React Native', 'CSS', 'Expo'],
-        url: 'https://github.com/heyliceeee/passwordGenerator'
-    },
-    {
         id: 2,
-        photo: 'spaceFlightNews.png',
-        name: 'Space Flight News',
-        tecnologies: ['Swift', 'API', 'Firebase'],
-        url: 'https://github.com/heyliceeee/spaceFlightNews'
+        photo: 'weatherApp.png',
+        name: 'WeatherTrack',
+        tecnologies: ['Vue.js', 'Bootstrap', 'API', 'Chart.js', 'Javascript'],
+        url: 'https://github.com/heyliceeee/plataforma-de-gestao'
     },
     {
         id: 1,
-        photo: 'smsSystem.png',
-        name: 'SMS System',
-        tecnologies: ['C#', 'ASP .NET Core', 'SQL Server', 'Xamarin', 'IIS'],
-        url: ''
-    },
+        photo: 'restaurant-dashboard.jpg',
+        name: 'Restaurant - Dashboard',
+        tecnologies: ['Vue.js', 'JSON Server', 'Ant Design', 'ECharts', 'Javascript'],
+        url: 'https://github.com/heyliceeee/vuejs-course'
+    }
 ];
 
 
