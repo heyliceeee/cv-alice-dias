@@ -16,7 +16,7 @@ const projects = [
         id: 17,
         photo: 'energyConsumption.jpg',
         name: 'Energy Consumption Forecasting with Machine Learning Models',
-        tecnologies: ['Data Science', 'Pandas', 'Scientific Research', 'Machine Learning', 'CRISP-DM', 'Automation', 'Big data', 'Predictive Models', 'Time Series', 'Python', 'Artificial Intelligence'],
+        tecnologies: ['Data Science', 'Pandas', 'Scientific Research', 'Automation', 'Time Series', 'Python', 'Artificial Intelligence'],
         url: 'https://github.com/heyliceeee/previsao-do-consumo-energetico-com-ml'
     },
     {
