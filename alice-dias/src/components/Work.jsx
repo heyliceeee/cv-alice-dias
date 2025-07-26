@@ -16,14 +16,14 @@ const projects = [
         id: 17,
         photo: 'energyConsumption.jpg',
         name: 'Energy Consumption Forecasting with Machine Learning Models',
-        tecnologies: ['Data Science', 'Pandas', 'Scientific Research', 'Automation', 'Time Series', 'Python', 'Artificial Intelligence'],
+        tecnologies: ['Data Science', 'Scientific Research', 'Time Series', 'Python', 'Artificial Intelligence'],
         url: 'https://github.com/heyliceeee/previsao-do-consumo-energetico-com-ml'
     },
     {
         id: 16,
         photo: 'candyCrush.png',
         name: 'Candy Crush YOLO',
-        tecnologies: ['Data Science', 'Pandas', 'Machine Learning', 'Automation', 'Python', 'Artificial Intelligence'],
+        tecnologies: ['Data Science', 'Machine Learning', 'Automation', 'Python', 'Artificial Intelligence'],
         url: 'https://github.com/heyliceeee/2025-ia-trabalhopratico'
     },
     {
