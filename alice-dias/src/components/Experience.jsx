@@ -11,9 +11,9 @@ const experiences = [
     {
         id: 1,
         title: "Internship",
-        company: "Escola Superior de Tecnologia e Gestão - Felgueiras",
-        duration: "Feb 2025 - Present",
-        description: "Goals: Develop and compare ML models to forecast energy consumption and identify key influencing factors. Main tasks: Time series preprocessing, model testing (Linear Regression, Random Forest, XGBoost, Neural Networks), performance comparison, dashboard implementation, and literature review on energy forecasting methods."
+        company: "ESTG - Polytechnic Institute of Porto",
+        duration: "Feb 2025 - Jul 2025",
+        description: "A project was carried out aiming to predict hourly energy consumption based on time series and exogenous variables, using traditional Machine Learning algorithms and models specialized in time series."
     },
     {
         id: 2,
@@ -32,9 +32,9 @@ const experiences = [
     {
         id: 4,
         title: "Web Development Team Member",
-        company: "Núcleo de Estudantes de Informática - NEI ESTG",
+        company: "NEI - ESTG",
         duration: "Nov 2023 - May 2024",
-        description: "Development of the 'Núcleo de Estudantes de Informática - Escola de Tecnologia e Gestão de Felgueiras' website."
+        description: "Development of the 'Núcleo de Estudantes de Informática - ESTG Polytechnic Institute of Porto' website."
     },
     {
         id: 5,
