@@ -24,7 +24,7 @@ const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                        Hi👋, I'm Alice Dias, a passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development.
+                        Olá👋, sou a Alice Dias, estudante de Engenharia Informática apaixonada por programação e tecnologia, com experiência prática em Data Analytics, Machine Learning e Automação Inteligente. Desenvolvi projetos de previsão de consumo energético com modelos de ML e um sistema de automação de jogadas para o Candy Crush utilizando visão computacional (YOLO) e OCR. Além disso, tenho background em desenvolvimento Web e Mobile, aplicando metodologias ágeis (Scrum).
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">
