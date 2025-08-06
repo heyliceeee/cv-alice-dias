@@ -24,7 +24,7 @@ const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                        Olá👋, sou a Alice Dias, estudante de Engenharia Informática apaixonada por tecnologia, com experiência em Data Analytics, Machine Learning, Automação Inteligente e desenvolvimento Web/Mobile.
+                        Hi👋, I'm Alice Dias, a Software Engineering student passionate about technology, with experience in Data Analytics, Machine Learning, Intelligent Automation, and Web/Mobile development.
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">
