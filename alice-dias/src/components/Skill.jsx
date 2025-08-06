@@ -8,21 +8,12 @@ import SkillCard from './SkillCard';
 
 
 
-const skillItem = [
+const skillItem = [ 
+    // 🔹 Data & AI (maior destaque)
     {
-        imgSrc: 'java.svg',
-        label: 'Java',
+        imgSrc: '/python.svg',
+        label: 'Python',
         desc: 'Language'
-    },
-    {
-        imgSrc: '/csharp.svg',
-        label: 'C#',
-        desc: 'Language'
-    },
-    {
-        imgSrc: '/scrum.svg',
-        label: 'Scrum',
-        desc: 'Agile Metodology'
     },
     {
         imgSrc: '/sql.svg',
@@ -30,15 +21,39 @@ const skillItem = [
         desc: 'Database'
     },
     {
-        imgSrc: '/mongodb.svg',
-        label: 'MongoDB',
-        desc: 'Database'
+        imgSrc: '/pandas.svg',
+        label: 'Pandas',
+        desc: 'Data Analysis'
     },
     {
-        imgSrc: '/python.svg',
-        label: 'Python',
+        imgSrc: '/scikit.svg',
+        label: 'Scikit-learn',
+        desc: 'Machine Learning'
+    },
+    {
+        imgSrc: '/yolov8.svg',
+        label: 'YOLOv8',
+        desc: 'Computer Vision'
+    },
+
+    // 🔹 Backend & Core Languages
+    {
+        imgSrc: '/csharp.svg',
+        label: 'C#',
         desc: 'Language'
     },
+    {
+        imgSrc: 'java.svg',
+        label: 'Java',
+        desc: 'Language'
+    },
+    {
+        imgSrc: '/nodejs.svg',
+        label: 'NodeJS',
+        desc: 'Web Server'
+    },
+
+    // 🔹 Frontend & Mobile
     {
         imgSrc: '/react.svg',
         label: 'React',
@@ -50,26 +65,6 @@ const skillItem = [
         desc: 'Framework'
     },
     {
-        imgSrc: '/angular.svg',
-        label: 'Angular',
-        desc: 'Framework'
-    },
-    {
-        imgSrc: '/ionic.svg',
-        label: 'Ionic',
-        desc: 'Framework'
-    },
-    {
-        imgSrc: '/swift.svg',
-        label: 'Swift',
-        desc: 'Language'
-    },
-    {
-        imgSrc: '/figma.svg',
-        label: 'Figma',
-        desc: 'Design tool'
-    },
-    {
         imgSrc: '/javascript.svg',
         label: 'JavaScript',
         desc: 'Language'
@@ -79,16 +74,19 @@ const skillItem = [
         label: 'TypeScript',
         desc: 'Language'
     },
+
+    // 🔹 Databases & Infra
     {
-        imgSrc: '/nodejs.svg',
-        label: 'NodeJS',
-        desc: 'Web Server'
+        imgSrc: '/mongodb.svg',
+        label: 'MongoDB',
+        desc: 'Database'
     },
 
+    // 🔹 Outros
     {
-        imgSrc: '/tailwindcss.svg',
-        label: 'TailwindCSS',
-        desc: 'User Interface'
+        imgSrc: '/scrum.svg',
+        label: 'Scrum',
+        desc: 'Agile Methodology'
     }
 ];
 
@@ -97,7 +95,7 @@ const Skill = () => {
         <section className="section">
             <div className="container">
                 <h2 className="headline-2 reveal-up">Essential Tools I use</h2>
-                <p className="text-zinc-400 mt-3 mb-8 reveal-up">Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
+                <p className="text-zinc-400 mt-3 mb-8 reveal-up">Discover the powerful tools and technologies I use to create exceptional, high‑performing websites, apps & AI solutions.</p>
                 <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
                     {
                         skillItem.map(({ imgSrc, label, desc }, key) => (
