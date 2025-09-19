@@ -25,8 +25,8 @@ const experiences = [
     {
         id: 3,
         title: "IT Department Member",
-        company: "Núcleo de Estudantes de Informática - NEI ESTG",
-        duration: "Out 2024 - Present",
+        company: "NEI - ESTG",
+        duration: "Out 2024 - Set 2025",
         description: "Supported the live stream setup for an online League of Legends tournament, including the creation of custom overlays and scene transitions. Ensured a smooth broadcast experience across platforms, combining technical execution with visual design."
     },
     {
