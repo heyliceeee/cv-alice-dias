@@ -29,6 +29,10 @@ const sitemap = [
         href: '#work'
     },
     {
+        label: 'Volunteer Work',
+        href: '#volunteer'
+    },
+    {
         label: 'Reviews',
         href: '#reviews'
     },

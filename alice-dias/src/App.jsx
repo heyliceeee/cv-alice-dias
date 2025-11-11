@@ -17,6 +17,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Volunteer from "./components/Volunteer";
 
 
 gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies 
