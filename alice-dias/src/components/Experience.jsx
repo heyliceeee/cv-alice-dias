@@ -17,55 +17,20 @@ const experiences = [
     },
     {
         id: 2,
-        title: "Design Team Member",
-        company: "ESTG Connect",
-        duration: "Out 2024 - May 2025",
-        description: "Collaborated on the visual identity and graphic communication of the ESTG Connect tech event. Designed logos, icons, banners, posters, brochures, speaker templates, and directional signs. Created sponsor promo videos and event-day content. Worked with the design/communication team to ensure a cohesive and professional image across digital and physical formats."
-    },
-    {
-        id: 3,
-        title: "IT Department Member",
-        company: "NEI - ESTG",
-        duration: "Out 2024 - Set 2025",
-        description: "Supported the live stream setup for an online League of Legends tournament, including the creation of custom overlays and scene transitions. Ensured a smooth broadcast experience across platforms, combining technical execution with visual design."
-    },
-    {
-        id: 4,
-        title: "Web Development Team Member",
-        company: "NEI - ESTG",
-        duration: "Nov 2023 - May 2024",
-        description: "Development of the 'Núcleo de Estudantes de Informática - ESTG Polytechnic Institute of Porto' website."
-    },
-    {
-        id: 5,
         title: "Internship",
         company: "Assistência Online",
         duration: "Mar 2022 - Jul 2022",
         description: "A platform was created to enable SMS scheduling and sending the SMS automatically."
     },
     {
-        id: 6,
+        id: 3,
         title: "Internship",
         company: "ANPRI - National Association of Computer Science Teachers",
         duration: "Mar 2022 - Jul 2022",
         description: "Mobile Development with Web Technology. Proficiency in JavaScript and CSS through the Adobe Brackets platform. Creation of hybrid applications using Adobe PhoneGap."
     },
     {
-        id: 7,
-        title: "Assistant",
-        company: "Famalicão Extreme Gaming",
-        duration: "5 Dec 2019 - 6 Dec 2019",
-        description: "I organized and set up the ANPRI booth, ensuring equipment and materials were arranged correctly. Led live demonstrations of robots and drones, explaining their functionality and relevance. Interacted with visitors of all ages, educating them on technological advances in robotics and drones. Collaborated with the team to create an engaging experience for all booth visitors."
-    },
-    {
-        id: 8,
-        title: "Participant",
-        company: "Apps for Good",
-        duration: "Mar 2019 - Jul 2019",
-        description: "I developed and contributed to the creation of the Study+ software, an innovative tool designed to support studying for students. I was responsible for designing the user interface, ensuring an intuitive and pleasant user experience. I collaborated in a multidisciplinary team, improving communication, problem-solving, and teamwork skills."
-    },
-    {
-        id: 9,
+        id: 4,
         title: "Internship",
         company: "Lantal Textiles",
         duration: "Set 2018 - Oct 2018",
