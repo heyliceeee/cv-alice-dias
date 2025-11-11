@@ -3,6 +3,8 @@
  * @license Apache-2.0
  */
 
+
+
 const volunteers = [
     {
         id: 1,
@@ -48,7 +50,7 @@ const Volunteer = () => {
                 <h2 className="headline-2 mb-8 reveal-up">Volunteer Work</h2>
 
                 <div className="education-timeline">
-                    {experiences.map(({ id, title, company, duration, description }) => (
+                    {volunteers.map(({ id, title, company, duration, description }) => (
                         <div key={id} className="education-item">
                             <div className="education-content">
                                 <h3 className="education-title">{title}</h3>
