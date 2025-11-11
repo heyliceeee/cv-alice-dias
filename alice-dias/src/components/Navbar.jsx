@@ -56,13 +56,13 @@ const Navbar = ({ navOpen }) => {
             className: 'nav-link'
         },
         {
-            label: 'Volunteer Work',
-            link: '#volunteer',
+            label: 'Projects',
+            link: '#work',
             className: 'nav-link'
         },
         {
-            label: 'Projects',
-            link: '#work',
+            label: 'Volunteer',
+            link: '#volunteer',
             className: 'nav-link'
         },
         {
